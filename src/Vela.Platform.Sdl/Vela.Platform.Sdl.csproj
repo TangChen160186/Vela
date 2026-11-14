@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Vela.Platform.Sdl</RootNamespace>
+    <AssemblyName>Vela.Platform.Sdl</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Description>Cross-platform SDL3 window, input, clipboard and presentation host for Vela.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vela.Core\Vela.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ppy.SDL3-CS" />
+  </ItemGroup>
+</Project>

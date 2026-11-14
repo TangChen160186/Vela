@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Vela.Desktop.Portable</RootNamespace>
+    <AssemblyName>Vela.Desktop.Portable</AssemblyName>
+    <Description>A portable Vela desktop loop using SDL3 for windowing and Skia's CPU renderer.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vela.Core\Vela.Core.csproj" />
+    <ProjectReference Include="..\Vela.Rendering.Skia\Vela.Rendering.Skia.csproj" />
+    <ProjectReference Include="..\Vela.Platform.Sdl\Vela.Platform.Sdl.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" />
+  </ItemGroup>
+</Project>

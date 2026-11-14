@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>Vela.Desktop</RootNamespace>
+    <AssemblyName>Vela.Desktop</AssemblyName>
+    <Description>Composes the Vela core, Skia renderer and Win32 host into a ready-to-run desktop application loop.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vela.Core\Vela.Core.csproj" />
+    <ProjectReference Include="..\Vela.Rendering.Skia\Vela.Rendering.Skia.csproj" />
+    <ProjectReference Include="..\Vela.Platform.Win32\Vela.Platform.Win32.csproj" />
+  </ItemGroup>
+</Project>

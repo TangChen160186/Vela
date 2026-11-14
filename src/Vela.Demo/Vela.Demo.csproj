@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>Vela.Demo</RootNamespace>
+    <AssemblyName>Vela.Demo</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Description>Vela Studio: a showcase application for the Vela immediate-mode UI framework.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vela.Core\Vela.Core.csproj" />
+    <ProjectReference Include="..\Vela.Desktop\Vela.Desktop.csproj" />
+    <ProjectReference Include="..\Vela.Rendering.Skia\Vela.Rendering.Skia.csproj" />
+    <PackageReference Include="SkiaSharp" />
+  </ItemGroup>
+</Project>
+

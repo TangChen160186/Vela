@@ -1,0 +1,21 @@
+﻿<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Vela.Core/Vela.Core.csproj" />
+    <Project Path="src/Vela.Demo/Vela.Demo.csproj" />
+    <Project Path="src/Vela.Desktop/Vela.Desktop.csproj" />
+    <Project Path="src/Vela.Desktop.Portable/Vela.Desktop.Portable.csproj" />
+    <Project Path="src/Vela.Platform.Win32/Vela.Platform.Win32.csproj" />
+    <Project Path="src/Vela.Platform.Sdl/Vela.Platform.Sdl.csproj" />
+    <Project Path="src/Vela.Rendering.Skia/Vela.Rendering.Skia.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/PortableHello/PortableHello.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Vela.Core.Tests/Vela.Core.Tests.csproj" />
+    <Project Path="tests/Vela.Rendering.Tests/Vela.Rendering.Tests.csproj" />
+  </Folder>
+</Solution>
+
+
+

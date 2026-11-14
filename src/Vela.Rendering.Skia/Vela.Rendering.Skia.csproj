@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Vela.Rendering.Skia</RootNamespace>
+    <AssemblyName>Vela.Rendering.Skia</AssemblyName>
+    <Description>SkiaSharp renderer and text engine for Vela UI.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vela.Core\Vela.Core.csproj" />
+    <PackageReference Include="SkiaSharp" />
+    <PackageReference Include="SkiaSharp.HarfBuzz" />
+  </ItemGroup>
+</Project>
+
